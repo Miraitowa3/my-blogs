@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-78485e1e","path":"/categories/LINUX/CICD/1/","title":"","lang":"en-US","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{e as data};

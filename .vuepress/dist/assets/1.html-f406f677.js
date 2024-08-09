@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e4c9ff56","path":"/blogs/HTML/1.html","title":"语义化标签","lang":"en-US","frontmatter":{"title":"语义化标签","date":"2019/04/09","categories":["HTML"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/HTML/1.md"}');export{e as data};
