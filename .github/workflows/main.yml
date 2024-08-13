@@ -21,9 +21,9 @@ jobs:
     - name: copy dist file with scp
     -  uses: appleboy/scp-action@v0.0.1
        with:
-         host: "http://124.223.41.220"
-         username: "http://124.223.41.220"
-         password: "password"
-         source: ""
-         target: 'docs'
-         port: 22
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        source: "tests/a.txt,tests/b.txt"
+        target: your_server_target_folder_path
