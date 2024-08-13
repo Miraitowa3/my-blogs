@@ -1,0 +1,29 @@
+
+name: deploy-myBlog
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:  # 手动构建
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: git clone
+    - uses: actions/checkout@v4 #冲分支拉去代码
+    - name: install nodejs
+    - uses: actions/setup-node@v4  
+      with:
+        node-version: "14"
+    - name: install yarn
+    -  run: npm i yarn -g  -registry=https://registry.npm.taobao.org/
+    - name: instal and build
+    -  run: yarn  && yarn build
+    - name: copy dist file with scp
+    -  uses: appleboy/scp-action@v0.0.1
+       with:
+         host: "http://124.223.41.220"
+         username: "http://124.223.41.220"
+         password: "password"
+         source: ""
+         target: 'docs'
+         port: 22
