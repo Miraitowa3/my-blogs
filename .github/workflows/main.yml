@@ -17,18 +17,4 @@ jobs:
       with:
         node-version: "14"
         
-    - name: install yarn
-    -  run: npm i yarn -g  -registry=https://registry.npm.taobao.org/
-    
-    - name: instal and build
-    -  run: yarn  && yarn build
-    
-    - name: copy dist file with scp
-    -  uses: appleboy/scp-action@v0.0.1
-       with:
-        host: ${{ secrets.REMOTE_HOST }}
-        username: ${{ secrets.REMOTE_USERNAME }}
-        password: ${{ secrets.REMOTE_PASSWORD }}
-        port: ${{ secrets.REMOTE_PORT }}
-        source: ${{ secrets.REMOTE_SOURCE }}
-        target: ${{ secrets.REMOTE_TARGET }}
+
