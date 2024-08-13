@@ -20,7 +20,7 @@ jobs:
     - name: copy dist file with scp
       uses: appleboy/scp-action@v0.0.1
       with: 
-        host: 124.223.41.220
+        host: "124.223.41.220"
         username: root
         password: Snow100107@
         port: 22
