@@ -7,13 +7,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-    
+    steps:   
     - name: git clone
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
     
     - name: install nodejs
-    - uses: actions/setup-node@v4  
+      uses: actions/setup-node@v4  
       with:
         node-version: "14"
         
