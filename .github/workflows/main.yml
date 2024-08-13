@@ -13,14 +13,11 @@ jobs:
       uses: actions/setup-node@v4  
       with:
         node-version: "14"
-    - name: install yarn
-      run: npm i yarn -g  
-    - name: yarn set
-      run: yarn config set registry https://registry.taobao.com
+
     - name: instal
-      run: yarn
+      run: npm i
     - name: build
-      run: yarn build
+      run: npm run build
     - name: copy dist file with scp
       uses: appleboy/scp-action@v0.0.1
       with: 
