@@ -24,7 +24,7 @@ jobs:
          username: root
          password: Snow100107@
          port: 22
-         source: "./.vuepress/dist/"
+         source: "./.vuepress/dist/*"
          target: "/www/wwwroot/my-blogs/"
     
   
