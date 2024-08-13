@@ -17,12 +17,15 @@ jobs:
       run: npm i
     - name: build
       run:  npm run build
-    - name: copy dist file with scp
-      uses: appleboy/scp-action@v0.0.1
-      with: 
-        host: "124.223.41.220"
-        username: root
-        password: Snow100107@
-        port: 22
-        source: './.vuepress/dist/'
-        target: '/www/wwwroot/my-blogs/'
+    - name: copy file via ssh password
+      uses: appleboy/scp-action@v0.1.7
+      with:
+         host: 124.223.41.220
+         username: root
+         password: Snow100107@
+         port: 22
+         source: "./.vuepress/dist/"
+         target: "/www/wwwroot/my-blogs/"
+    
+  
+       
