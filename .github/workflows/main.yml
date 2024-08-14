@@ -21,11 +21,11 @@ jobs:
       uses: appleboy/scp-action@v0.1.7
       with:
         host: ${{ secrets.REMOTE_HOST }}
-        username: ${{ secrets.REMOTE_USERNAME }}
-        password: ${{ secrets.REMOTE_PASSWORD }}
-        port: ${{ secrets.REMOTE_PORT }}
-        source: ${{ secrets.REMOTE_SOURCE }}
-        target: ${{ secrets.REMOTE_TARGET }}
+        username: ${{secrets.REMOTE_USERNAME}}
+        password: ${{secrets.REMOTE_PASSWORD}}
+        port: ${{secrets.REMOTE_PORT}}
+        source: ${{secrets.REMOTE_SOURCE}}
+        target: ${{secrets.REMOTE_TARGET}}
 
     
   
