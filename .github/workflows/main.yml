@@ -24,8 +24,8 @@ jobs:
         username: ${{secrets.REMOTE_USERNAME}}
         password: ${{secrets.REMOTE_PASSWORD}}
         port: ${{secrets.REMOTE_PORT}}
-        source: ${{secrets.REMOTE_SOURCE}}
-        target: ${{secrets.REMOTE_TARGET}}
+        source: './.vuepress/dist'
+        target: '/www/wwwroot/my-blogs/'
 
     
   
