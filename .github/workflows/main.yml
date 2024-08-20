@@ -30,7 +30,7 @@ jobs:
         source: './.vuepress/dist/*'
         target: '/www/wwwroot/my-blogs/'
         rm: true
-        strip_components: 2
+        #strip_components: 2
     
   
        
