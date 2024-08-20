@@ -1,0 +1,29 @@
+/* 定义（在全局样式中定义） */
+@font-face {
+  font-family: 'us';
+  src: url('http://124.223.41.220:3333/myblogs/fonts/优设标题黑.ttf');
+}
+
+@font-face {
+  font-family: 'apple';
+  src: url('http://124.223.41.220:3333/myblogs/fonts/apple.ttf');
+}
+
+@font-face {
+  font-family: 'STXINGKA';
+  src: url('http://124.223.41.220:3333/myblogs/fonts/STXINGKA.TTF');
+}
+
+@font-face {
+  font-family: 'DSDIGI';
+  src: url('http://124.223.41.220:3333/myblogs/fonts/DSDIGI.TTF');
+}
+@font-face {
+  font-family: '78d';
+  src: url('/fonts/37.woff2') format('woff2');
+}
+/*
+重新定义navbar */
+.navbar-inner {
+  font-family: '78d';
+}
