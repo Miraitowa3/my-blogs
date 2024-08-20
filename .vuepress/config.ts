@@ -29,9 +29,9 @@ export default defineUserConfig({
       {
         text: '前端基础',
         children: [
-          { text: 'CSS', link: '/docs/前端端基础/CSS/1' },
-          { text: 'HTML', link: '/docs/前端端基础/HTML/1' },
-          { text: 'TypeScript', link: '/docs/前端端基础/TypeScript/1' }
+          { text: 'CSS', link: '/docs/web/CSS/1' },
+          { text: 'HTML', link: '/docs/web/HTML/1' },
+          { text: 'TypeScript', link: '/docs/web/TypeScript/1' }
         ]
       },
       {
@@ -46,7 +46,7 @@ export default defineUserConfig({
     ],
     // series 为原 sidebar
     series: {
-      '/docs/前端端基础/': [
+      '/docs/web/': [
         {
           text: 'HTML',
           children: ['HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1',]

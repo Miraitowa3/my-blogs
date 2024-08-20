@@ -3,8 +3,8 @@
 node_modules/*
 logs/
 **.DS_Store
-.cache/*
-.temp/*
+.vuepress/.cache/*
+.vuepress/.temp/*
 
 .vuepress/dist/*
 .history
