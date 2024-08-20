@@ -21,6 +21,9 @@ export default defineUserConfig({
       options: {
         appId: 'VDhqRMbuY0Yc4pj8zmSEaT1Y-gzGzoHsz', // your appId
         appKey: 'd07aclCvL4dpp7CXAHxNIcoI', // your appKey
+        enableQQ:true,
+        visitor: true,
+        avatar:'monsterid'
 
       }
     },
