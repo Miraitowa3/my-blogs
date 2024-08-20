@@ -5,6 +5,8 @@ lastUpdated: true
 hideComments: false
 categories:
   - 前端工程化/CICD
+tags:
+  - 前端工程化
 
 ---
 

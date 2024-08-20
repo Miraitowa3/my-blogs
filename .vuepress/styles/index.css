@@ -22,6 +22,21 @@
   font-family: '78d';
   src: url('/fonts/37.woff2') format('woff2');
 }
+
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+div,
+span,
+i p,
+li,
+ol {
+  font-family: '78d' !important;
+}
 /*
 重新定义navbar */
 .navbar-inner {
