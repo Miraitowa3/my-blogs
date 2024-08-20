@@ -16,6 +16,7 @@ export default defineUserConfig({
     logo: '/images/home/author.jpg',
     author: 'miraitowa',
     authorAvatar: '/images/home/author.jpg',
+    autoSetSeries: true,
     commentConfig: {
       type: 'valine',
       options: {
