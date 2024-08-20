@@ -23,14 +23,14 @@ jobs:
     - name: copy file via ssh password
       uses: appleboy/scp-action@v0.1.7
       with:
-        host: '124.223.41.220'
-        username: 'root'
-        password: 'Snow100107@'
-        port: '22'
-        source: './.vuepress/dist/*'
-        target: '/www/wwwroot/my-blogs/'
+        host: ${{ secrets.REMOTE_HOST }}
+        username: ${{secrets.REMOTE_USERNAME}}
+        password: ${{secrets.REMOTE_PASSWORD}}
+        port: ${{secrets.REMOTE_PORT}}
+        source: ${{ secrets.REMOTE_SOURCE }}
+        target: ${{ secrets.REMOTE_TARGET }}
         rm: true
-        #strip_components: 2
+        strip_components: 2
     
   
        
