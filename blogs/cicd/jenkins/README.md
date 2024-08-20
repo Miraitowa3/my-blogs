@@ -446,10 +446,12 @@ vi index.html
 
 
 
-参考：
+参考链接：
+-  [https://www.jenkins.io/zh/doc/book/installing/](https://www.jenkins.io/zh/doc/book/installing/)
 
-   - [jenkins官网](https://www.jenkins.io/zh/doc/book/installing/)
-   - [65岁退休Coder](https://juejin.cn/post/7102360505313918983)
-   - [阮一峰](https://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)
+-  [https://juejin.cn/post/7102360505313918983](https://juejin.cn/post/7102360505313918983)
+
+-  [https://www.ruanyifeng.com/blog/2015/09/continuous-integration.html](https://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)
+
 
 
