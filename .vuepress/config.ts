@@ -53,15 +53,15 @@ export default defineUserConfig({
       '/docs/web/': [
         {
           text: 'HTML',
-          children: ['HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1','HTML/1',]
+          children: ['HTML/1']
         },
         {
           text: 'CSS',
           children: ['CSS/1']
         },
         {
-          text: 'TypeScript',
-          children: ['TypeScript/1']
+          text: 'JavaScript',
+          children: ['JavaScript/动态执行js']
         }
       ]
     }
